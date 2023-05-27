@@ -1,6 +1,6 @@
 import random
 
-def highlow():
+def high_low():
     secret_number = random.randint(1,100)
 
     guess_str = input("I am thinking of a number from 1 to 100. What number am I thinking of? ")
@@ -15,4 +15,4 @@ def highlow():
     print("You guessed my number! Way to go!")
 
 if __name__ == '__main__':
-    highlow()
+    high_low()
