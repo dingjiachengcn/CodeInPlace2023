@@ -13,8 +13,8 @@ def main():
     f = 23 - -4    # the 1st is negation, the 2nd is minus
     g = --8
 
-    h = random.randint(0, 10)       # must be a non-negative number
-    i = random.randint(1, 10)       # must be a positive number
+    h = random.randint(0, 5)       # must be a non-negative number
+    i = random.randint(1, 5)       # must be a positive number
     ans1 = math.exp(math.sqrt(h) * math.pi)
     ans1 += math.log(i)
 
