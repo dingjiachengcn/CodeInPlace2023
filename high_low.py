@@ -1,4 +1,4 @@
-import random
+import random_value
 
 def high_low():
     secret_number = random.randint(1,100)
